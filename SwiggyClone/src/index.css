@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+Customize the scrollbar appearance
+.res-container::-webkit-scrollbar {
+    width: 0pc; /* Set the width of the scrollbar */
+  }
+  
+  .res-container::-webkit-scrollbar-thumb {
+    background-color: #a0aec0; /* Set the color of the thumb */
+  }
+  
+  .res-container::-webkit-scrollbar-track {
+    background-color: #edf2f7; /* Set the color of the track */
+  }
+  
+  /* For Firefox */
+  
+  .res-container {
+    scrollbar-width: thin;
+    scrollbar-color: #f97603 #fffcfc; /* Set the color of the thumb and track */
+  }
+  
